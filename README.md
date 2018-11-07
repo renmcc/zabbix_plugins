@@ -12,6 +12,7 @@ jisuanfazhi.py                #用于计算浮动触发器值
 check_game_cpu_util.sh
 check_process_cpu.sh
 check_raid.sh                 #用于检查raid状态
+wechat.sh                     #微信公众号报警
 
 ```
 原理：
