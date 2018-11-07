@@ -2,10 +2,17 @@
 描述：
 =
 ```
-自定义插件
-check_disk_status.sh
-jisuanfazhi.py
-用于监控服务器磁盘IO浮动20%（七天平均值）就触发
+alldiskrw.sh  					#用于检查挂载点是否只读
+allmount.sh   					#用于自动发现
+allnetface.sh 					#用于自动发现
+allport.sh    					#用于自动发现
+chec_disk_status_discovery.py   #用于自动发现
+check_disk_status.sh			#用于检查磁盘IO
+jisuanfazhi.py					#用于计算浮动触发器值
+check_game_cpu_util.sh
+check_process_cpu.sh
+check_raid.sh					#用于检查raid状态
+
 ```
 原理：
 =
