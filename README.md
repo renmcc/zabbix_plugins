@@ -19,6 +19,7 @@ jisuanfazhi.py #脚本放到zabbix_server端每分钟执行一次，通过zabbix
 [root@zabbix-server ~]# crontab -l
 2 * * * * /usr/sbin/ntpdate time.nist.gov clepsydra.dec.com > /dev/null 2>&1
 * * * * * /usr/bin/python /usr/local/zabbix/share/zabbix/externalscripts/jisuanfazhi.py > /dev/null 2>&1
+
 [root@zabbix-server ~]# /usr/bin/python /usr/local/zabbix/share/zabbix/externalscripts/jisuanfazhi.py
 [{'itemid': u'24140', 'max_value': 56.126158770806704, 'min_value': 38.97649914639355, 'hostid': u'10123', 'key': u'script.check_disk_status[rKBps]'}]
 
